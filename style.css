@@ -422,3 +422,469 @@ footer #direitos {
     text-align: center;
     padding: 20px;
 }
+
+
+
+
+@media screen and (max-width: 767px){
+        
+    body {
+        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: var(--azul);
+        overflow-x: hidden;
+        background-size: 300%;
+        
+    }
+
+    header {
+        display: flex;
+        width: 100%;
+    }
+
+    header img {
+        width: 35%;
+        margin-top: -25px;
+        margin-right: 0px;
+        filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+        width: 100%;
+    }
+
+    nav a {
+        margin-left: 0;
+        margin-right: 0px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(255, 255, 255);
+        display: none;
+    }
+
+    nav #reserva{
+        background-color: var(--laranja);
+        padding: 10px 25px;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        border-radius: 5px;
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .inicio {
+        display: flex;
+        height: 720px;
+        justify-content: center;
+        background-image: url(caribe.jpg);
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -120px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #textos {
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #textos h1 {
+        font-family: "Montserrat", sans-serif;  
+        color: white;  
+        font-weight: 700;
+        line-height: 45px;
+        font-size: 40px;
+        margin-top: 250px;
+        text-shadow: 5px 5px 15px rgb(53, 53, 53);
+    }
+
+    #textos h1 span {
+        color: var(--laranja);
+    }
+
+    #textos h5 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        margin-top: 10px;
+        font-size: 18px;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        width: 300px;    
+    }
+
+    .sec-destinos {
+        background-color: white;
+        border-radius: 50px 50px 0px 0px;
+        box-shadow: 0px 10px 70px 0px rgb(65, 65, 65);
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -50px;
+    }
+
+    #destinos {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #destinos h1 {
+        font-family: "Montserrat", sans-serif;
+        color: var(--azul);
+        padding: 60px;
+        padding-top: 80px;
+        font-size: 35px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #destinos h1 span {
+        color: var(--laranja);
+    }
+
+    #destinos ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+        flex-direction: column;
+        margin-left: -10%;
+    }
+
+    #destinos ul li {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 30px;
+        font-family: "Montserrat", sans-serif;
+        margin-left: 0;
+    }
+
+    #destinos ul li img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    #destinos ul li p{
+        margin-top: -10px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    .sec-inscrever1 {
+        background-color: var(--azul);
+    }
+
+    .sec-inscrever1 section{
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sec-inscrever1 section form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+
+    .sec-inscrever1 section form input {
+        width: 80%;
+        height: 35px;
+        font-size: 17px;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+
+    .sec-inscrever1 section form button {
+        width: 86%;
+        height: 35px;
+        margin-top: 15px;
+        border-radius: 10px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        background-color: var(--laranja);
+        border: 0px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .sec-inscrever1 section h2 {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .sec-inscrever1 section img {
+        width: 60%;
+        object-fit: cover;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        margin-bottom: 0;
+        margin-top: 10px;
+        margin-bottom: -160px;
+    }
+
+
+    .sec-destinos2 {
+        background-color: white;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 100px;
+    }
+
+    #destinos2 {
+        height: fit-content;
+    }
+
+    #destinos2 h1 {
+        font-family: "Montserrat", sans-serif;
+        color: var(--azul);
+        padding-top: 100px;
+        font-size: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #destinos2 h1 span {
+        color: var(--laranja);
+    }
+
+    #destinos2 #t {
+        font-family: "Montserrat", sans-serif;
+        color: var(--azul);
+        margin-left: 0px;
+        margin-top: -15px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #destinos2 ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: -35px;
+    }
+
+    #destinos2 ul li {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 10px;
+        font-family: "Montserrat", sans-serif;
+        box-shadow: 0px 0px 0.5px 0px black;
+    }
+
+    #destinos2 ul li img{
+        width: 325px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #destinos2 ul li h3{
+        margin-left: 10px;
+    }
+
+    #destinos2 ul li p{
+        margin-top: -10px;
+        font-weight: 300;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    #destinos2 ul li hr{
+        width: 310px;
+    }
+
+    #destinos2 ul li h4{
+        margin-top: 0px;
+        font-weight: 500;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .sec-sobre {
+        background-image: url(f02f5580-9ab4-4c5b-9cdc-e94de2c61c6a.jpg);
+        background-color: #000000;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -400px;
+        margin-top: -25px;
+        margin-left: -10px;
+        margin-right: -10px;
+        height: 600px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #sobre {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    #sobre h1 {
+        font-size: 40px;
+        color: white;
+        margin-top: -50px;
+    }
+
+    #sobre p {
+        font-size: 18px;
+        color: white;
+        width: 92%;
+        margin-top: -10px;
+        font-weight: 500;
+        filter: drop-shadow(0px 0px 7px rgb(0, 0, 0));
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .sec-perguntas {
+        background-color: white;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding: 50px;
+        padding-bottom: 150px;
+    }
+
+    #perguntas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #perguntas h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        color: var(--azul);
+        text-align: left;
+        margin-top: -20px;
+    }
+
+    #perguntas ul {
+        border: 1px solid rgb(180, 180, 180);
+        padding: 60px;
+        border-radius: 20px;
+    }
+
+    .questao {
+        list-style: none;
+        display: flex;
+        font-family: "arial", sans-serif;
+        flex-direction: column;
+    }
+
+    .p1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+        padding: 0px;
+        width: 150%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        font-size: 18px;
+        margin-left: -40px;
+        padding-left: 0px;
+    }
+    
+    .p1:hover {
+        background-color: #ececec;
+    }
+
+    .p1 i {
+        font-size: 30px;
+    }
+
+    .answer {
+        background-color: white;
+        display: none;
+        overflow: hidden;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        column-span: all;
+        margin-left: -40px;
+        width: 150%;
+        font-size: 15px;
+    }
+
+    #viajante2 {
+        width: 50%;
+        margin-top: -200px;
+        position: absolute;
+    }
+
+    footer div img {
+        width: 200px;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        height: 20%;
+    }
+
+    footer .logos p {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        margin-left: 5px;
+        margin-top: -50px;
+    }
+
+    footer .logos i {
+        font-size: 20px;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    footer .logos i:hover {
+        color: var(--laranja);
+    }
+
+    footer hr {
+        border: 1.5px solid var(--laranja);
+        width: 100%;
+    }
+
+    footer #direitos {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding: 20px;
+    }
+}
