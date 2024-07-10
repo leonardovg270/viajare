@@ -771,7 +771,7 @@ footer #direitos {
         background-color: white;
         margin-left: -10px;
         margin-right: -10px;
-        padding: 50px;
+        padding-top: 50px;
         padding-bottom: 150px;
     }
 
@@ -793,7 +793,7 @@ footer #direitos {
 
     #perguntas ul {
         border: 1px solid rgb(180, 180, 180);
-        padding: 60px;
+        padding-top: 60px;
         border-radius: 20px;
     }
 
@@ -837,9 +837,10 @@ footer #direitos {
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
         column-span: all;
-        margin-left: -40px;
-        width: 150%;
+        margin-left: 25px;
+        width: 90%;
         font-size: 15px;
+        text-align: justify;
     }
 
     #viajante2 {
