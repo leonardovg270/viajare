@@ -686,6 +686,7 @@ footer #direitos {
         align-items: center;
         justify-content: center;
         margin-left: -35px;
+        padding-bottom: 50px;
     }
 
     #destinos2 ul li {
@@ -732,10 +733,12 @@ footer #direitos {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: -400px;
-        margin-top: -25px;
+        margin-top:-20px;
         margin-left: -10px;
         margin-right: -10px;
-        height: 600px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 500px;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -750,18 +753,18 @@ footer #direitos {
     #sobre h1 {
         font-size: 40px;
         color: white;
-        margin-top: -50px;
+        margin-top: 10px;
     }
 
     #sobre p {
         font-size: 18px;
         color: white;
-        width: 92%;
+        width: 350px;
         margin-top: -10px;
         font-weight: 500;
         filter: drop-shadow(0px 0px 7px rgb(0, 0, 0));
         text-align: center;
-        margin-left: 15px;
+        text-align: justify;
     }
 
     .sec-perguntas {
@@ -779,12 +782,13 @@ footer #direitos {
         flex-direction: column;
     }
 
-    #perguntas h1 {
+    #perguntas ul h1 {
         font-family: "Montserrat", sans-serif;
         font-size: 30px;
         color: var(--azul);
-        text-align: left;
+        text-align: center;
         margin-top: -20px;
+        width: 400px;
     }
 
     #perguntas ul {
@@ -808,13 +812,13 @@ footer #direitos {
         color: #000000;
         cursor: pointer;
         padding: 0px;
-        width: 150%;
+        width: 90%;
         text-align: left;
         border: none;
         outline: none;
         transition: 0.4s;
         font-size: 18px;
-        margin-left: -40px;
+        margin-left: 25px;
         padding-left: 0px;
     }
     
@@ -840,7 +844,7 @@ footer #direitos {
 
     #viajante2 {
         width: 50%;
-        margin-top: -200px;
+        margin-top: -150px;
         position: absolute;
     }
 
